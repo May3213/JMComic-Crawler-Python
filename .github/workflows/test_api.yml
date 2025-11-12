@@ -25,7 +25,7 @@ jobs:
       JM_OPTION_PATH_TEST: ./assets/option/option_test_api.yml
 
     steps:
-      - name: Checkout repository
+      - name: jm1083967
         uses: actions/checkout@v4
 
       - name: Set up Python ${{ matrix.python-version }}
